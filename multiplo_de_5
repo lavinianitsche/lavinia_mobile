@@ -1,0 +1,12 @@
+alert("programa para verificar se um número é múltiplo de 5");
+
+var numero = Number(prompt("digite o numero"));
+var total = numero / 5;
+
+if (numero % 5 == 0){
+    alert("multiplo");
+} else {
+    alert("nao multiplo");
+}
+
+alert("a divisão é " + total);
