@@ -1,0 +1,6 @@
+var notaum = Number(prompt("digite a nota um"));
+var notadois = Number(prompt("digite a nota dois"));
+var notatres = Number(prompt("digite a nota tres"));
+var media = (notaum + notadois + notatres)/3
+
+alert("sua media é igual a: " + media );
