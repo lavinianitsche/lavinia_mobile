@@ -1,0 +1,28 @@
+atividade 1 
+
+alert( "programa para verificar se um numero é par ou impar" );
+var numero = Number( prompt ( "digite o número" ) );
+var total = numero / 2;
+
+if( numero % 2 == 0 ) {
+    alert( "par" ); 
+} else {
+    alert( "impar" );
+}
+
+alert( "a divisão por 2 é igual a " + total );
+
+
+
+atividade 19
+
+alert( "Sistema para colocar dois números em ordem crescente" );
+
+var numeroUm = Number( prompt( "Digite o primeiro número" ) );
+var numeroDois = Number( prompt( "Digite o segundo número" ) );
+
+if ( numeroUm > numeroDois ) {
+    alert( + numeroUm + ", " + numeroDois );
+} else {
+    alert( + numeroDois + ", " + numeroUm );
+}
