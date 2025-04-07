@@ -1,0 +1,10 @@
+alert( "Sistema para colocar dois números em ordem crescente" );
+
+var numeroUm = Number( prompt( "Digite o primeiro número" ) );
+var numeroDois = Number( prompt( "Digite o segundo número" ) );
+
+if ( numeroUm > numeroDois ) {
+    alert( + numeroUm + ", " + numeroDois );
+} else {
+    alert( + numeroDois + ", " + numeroUm );
+}
