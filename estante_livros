@@ -1,0 +1,12 @@
+alert( "sistema para cadastro de livros" );
+
+var livro = prompt( "digite o titulo do livro" );
+console.log( livro );
+
+var autor = prompt( "digite o autor do livro" );
+console.log( autor );
+
+var genero = prompt( "digite o genero do livro" );
+console.log( genero );
+
+alert( "parabéns! livro cadastrado" );
